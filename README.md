@@ -3,7 +3,7 @@
 #include <cstdlib>
 using namespace std;
 /*this is a prototype of the system of the arduino plant monitor
-Ccurrent procedure:
+current procedure:
 	-displays a false value which represents thre value retrieved from the sensor
 	-displays the value for one of the folowing graphs (max value)
 	-
