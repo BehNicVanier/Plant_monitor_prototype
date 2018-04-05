@@ -12,6 +12,7 @@ int main (){
 	//Variables used
 	float ihum, itemp[3], imos;				//variables for the sensor values retrieved from all of the sensors
 	float ihummax=0, itempmax=0, imosmax=0;	//used to determine the max value of the sensor values
+	//the max values will be important with regards to being convenient to check the progress of the plant's living condition for the day
 	float ihum_req, imos_req;				//used to send error message if there is a spec of the living condiion of the plant which is not met
 	int iselect;							//used for desicion making
 	int icount;								//variable for cunter loop 
